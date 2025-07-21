@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="home-button">🏠 Home</button>
+  <div class="container">
+    <h1>🎬 Movie Explorer</h1>
+    <p class="intro">Discover trending films or search for your favorites by title, genre, or release year.</p>
+    
+
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Enter movie title" required />
+      <input type="text" id="search-year" placeholder="Year (optional)" />
+      <input type="text" id="search-genre" placeholder="Genre (optional)" />
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="results" class="results-grid"></div>
+
+    <h2 class="section-heading">🔥 Trending Movies</h2>
+    <div class="results-grid" id="trending"></div>
+  </div>
+
+  <footer>
+    <p>🚀 Built with HTML, CSS, JS & OMDb API · Created by David Pickett</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
