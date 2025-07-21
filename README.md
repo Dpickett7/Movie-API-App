@@ -39,14 +39,6 @@ The Movie API App is built with **HTML**, **CSS**, and **JavaScript**, designed 
 
 ---
 
-## 📎 How to Use
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Enter a movie title (optional: filter by year or genre)
-4. View search results dynamically fetched from OMDb
-
----
-
 ## 🔗 API Reference
 [OMDb API](https://www.omdbapi.com/) – The Open Movie Database used to retrieve movie details.
 
