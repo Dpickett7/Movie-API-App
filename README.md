@@ -1,5 +1,5 @@
 # 🎬 Movie API Application
-
+Link to view application: https://movie-api-app-tau.vercel.app/
 This front-end application uses the [OMDb API](https://omdbapi.com/) to allow users to search and view movie details in a clean, responsive layout.
 
 ## 🚀 Project Overview
